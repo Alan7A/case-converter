@@ -1,6 +1,6 @@
 # Case converter
 
-Transform a string between various cases.
+Case converter is a [Vicinae](https://github.com/vicinaehq/vicinae) extension to quickly convert text to different formatting styles
 
 Included case transformations:
 
