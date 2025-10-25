@@ -25,6 +25,10 @@ Included case transformations:
 - `UPPER CASE`
 - `Upper first`
 
+## Extension showcase
+
+https://github.com/user-attachments/assets/e2837498-86e3-4f42-ae62-f3a01b583f89
+
 ## Advanced Preferences
 
 ### Preserve Casing
