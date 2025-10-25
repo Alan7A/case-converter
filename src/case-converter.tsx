@@ -199,7 +199,8 @@ import {
         <List.Item
           id={props.case}
           title={props.case}
-          accessories={[{ text: props.modified }]}
+          // accessories={[{ text: props.modified }]}
+          subtitle={props.modified}
           detail={<List.Item.Detail markdown={props.detail} />}
           keywords={aliases[props.case]}
           actions={
