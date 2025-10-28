@@ -108,7 +108,15 @@ import {
     useEffect(() => {
       setPinned(getPinnedCases());
       setRecent(getRecentCases());
-      getFrontmostApplication().then(setFrontmostApp);
+      getFrontmostApplication()
+        .then(setFrontmostApp)
+        .catch(() => {
+          showToast({
+            style: Toast.Style.Failure,
+            title: "Window management unavailable",
+            message: "You can still use all case conversions. Copy to clipboard works perfectly.",
+          });
+        });
     }, []);
   
     useEffect(() => {
