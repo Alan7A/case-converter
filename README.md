@@ -1,5 +1,8 @@
 # Case converter
 
+> [!WARNING]
+> This project has been moved to [vicinaehq/extensions](https://github.com/vicinaehq/extensions/tree/main/extensions/case-converter). This repo is now archived and kept for reference only.
+
 Case converter is a [Vicinae](https://github.com/vicinaehq/vicinae) extension to quickly convert text to different formatting styles
 
 Included case transformations:
